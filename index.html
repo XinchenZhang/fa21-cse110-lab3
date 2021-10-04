@@ -45,6 +45,41 @@
     </audio>
     <hr/>
 
+    <form>
+        <fieldset>
+        <div>
+            <label for="user_name">Name</label>
+            <input type="text" id="user_name" placeholder="name">
+        </div>
+        <div>
+            <label for="meeting_date">What date is today</label>
+            <input id="meeting_date" type="Date" >
+        </div>
+        <div>
+        
+            <div>
+                <label for="Love" >Love this meeting?</label>
+                <input type="radio" id="Love" name = "loveOrNot" >
+            </div>
+
+            <div>
+                <label for="additional_comments">Additional Comments</label>
+               <textarea name="comments" id="additional_comments" cols="50" rows="10"></textarea>
+            </div>
+
+            <div>
+                <label for="gender">your gender?</label>
+                <select name="gender" id="gender">
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                </select>
+            </div>
+           
+        </div>
+        <button type="submit" value= "submit">Submit</button>
+        </fieldset>
+    </form>
+        
     <footer>
         <nav>
             <a href="https://ucsd.edu/">UCSD</a>
