@@ -5,15 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meeting Minutes</title>
+    <style type="text/css">
+
+    html {
+        font-family: sans-serif;
+        box-sizing: border-box;
+    }
+
+    .check-ins {
+        width: 100%;
+        height: 10cm;
+        background-color: #eee;
+        position: relative;
+        display: inline-block;
+    }
+
+    .box {
+        width: 350px;
+        height: 15ch;
+        margin: 1em;
+        padding-top: 0.1mm;
+        padding-left: 0.1in;
+        position: relative;
+        top: 10px; left: 20px;
+        border: 5px solid black;
+        display: revert;
+    }
+
+    .myName {
+        position: fixed;
+        top: 10px; right: 200px;
+    }
+    .attendance  {
+        position: relative;
+        top: 10px; left: 20px;
+    }
+    
+    button:hover {
+        color: blue;
+    }
+
+    </style>
+
 </head>
 <body style="background-color:#ffe9c2;">
+
+    <div class = "myName">
+        <h4>Xinchen Zhang</h4>
+    </div>
+
+    
     <header>
         
-            <img 
+        <img 
             src="https://njfog.org/wp-content/uploads/2016/01/meeting-minutes-1140-x-450-860x450.jpg"  
             alt="meeting minutes" />
-        
+        <style>
+        h5{
+            color: navy;
+        }
+        </style>
         <h5>Welcome to the Meeting Minutes</h5>
+        
     </header>
     <section>
         <h5>Oct 3</h5>
@@ -21,24 +74,33 @@
     </section>
     <h1>Lab 1 First Brainstorm</h1>
 
-    <div>
-
-    </div>
-    
     <h4>Brainstorm</h4>
+
+    <div class = "check-ins">
+
     <h4>check-ins</h4>
     <ol>
         <li>Max</li>
         <li>Steve</li>
         <li>Bob</li>
     </ol>
+    </div>
 
-        
-    <h4>Documentation</h4>
 
-    <p class="tip"></p><span>this is the document</span>
-    <h4>attendance list</h4>
-    <h4>agenda</h4>
+    <div class = "box">
+        <h4>Documentation</h4>
+        <p></p><span>this is the document</span>
+    </div>   
+    
+
+    <div class = "attendance">
+        <h4>attendance list</h4>
+    </div>
+
+    <div class = "box">
+        <h4>agenda</h4>
+    </div>
+
     <audio controls>
         <source src="audio.wav" type="audio/wav">
       Your browser does not support the audio element.
