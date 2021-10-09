@@ -12,6 +12,9 @@
         box-sizing: border-box;
     }
 
+    span#identified {
+        background-color: rgb(149, 202, 255);
+    }
     .check-ins {
         width: 100%;
         height: 10cm;
@@ -45,6 +48,31 @@
         color: blue;
     }
 
+    *.warning {
+        color: red;
+    }
+
+    p {
+        background-color: yellow;
+    }
+
+    a[href$=".edu"] {
+        color: rgb(55, 255, 55);
+    }
+
+    h1 {font-family: sans-serif }
+
+    li {
+        list-style-type: disc;
+    }
+
+    div > span {
+    background-color: DodgerBlue;
+    }
+
+    li:first-of-type + li {
+        color: rgb(255, 159, 159);
+    }
     </style>
 
 </head>
@@ -68,6 +96,10 @@
         <h5>Welcome to the Meeting Minutes</h5>
         
     </header>
+
+    <span id="identified">Here's a span with ID Selector.</span>
+    <span>Here's another.</span>
+
     <section>
         <h5>Oct 3</h5>
         <p>This is a minutes of Oct 3 meeting</p>
@@ -80,6 +112,7 @@
 
     <h4>check-ins</h4>
     <ol>
+
         <li>Max</li>
         <li>Steve</li>
         <li>Bob</li>
@@ -88,6 +121,7 @@
 
 
     <div class = "box">
+        
         <h4>Documentation</h4>
         <p></p><span>this is the document</span>
     </div>   
@@ -141,6 +175,10 @@
         <button type="submit" value= "submit">Submit</button>
         </fieldset>
     </form>
+
+    <p class="warning">
+        Warning! <span lang="en-us">this is the end of the page</span>
+    </p>
         
     <footer>
         <nav>
